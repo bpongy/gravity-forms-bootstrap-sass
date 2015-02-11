@@ -577,7 +577,7 @@ body .gform_wrapper label.gfield_label + div.ginput_container {
 }
 
 .gform_wrapper .gfield_required {
-	color: $brand-danger;
+	color: $alert-danger-text;
 	margin-left: 0.250em;
 }
 
@@ -694,13 +694,13 @@ div.gf_page_steps+div.validation_error {
 .gform_wrapper li.gfield_error input[type=number],
 .gform_wrapper li.gfield_error input[type=password],
 .gform_wrapper li.gfield_error textarea {
-	border: 1px solid #790000;
+	border: 1px solid $alert-warning-text;
 }
 
 .gform_wrapper li.gfield_error div.ginput_complex.ginput_container label,
 .gform_wrapper li.gfield_error ul.gfield_checkbox,
 .gform_wrapper li.gfield_error ul.gfield_radio {
-	color: #790000;
+	color: $alert-warning-text;
 }
 
 .gform_footer {
